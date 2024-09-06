@@ -1,4 +1,4 @@
-{% set version = "0.4.21" %}
+{% set version = "0.4.22" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/adehabitatHR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/adehabitatHR/adehabitatHR_{{ version }}.tar.gz
-  sha256: 16bc1b5be8c16a1bf5fd7ccd6ad60a68a60753453f75fa6f4751e3f28f50244a
+  sha256: 7cf3d4822373f21406ea192a15a1736724411535419030cc4d9bcdbbe6a3d426
 
 build:
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
